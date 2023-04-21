@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    /* border: 1px solid red; */
+     width: 100%;
+     height: 100vh;
+     background-image: url(music.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    background-color: black;
+    color: white;
+    height: 70px;
+    align-items: center;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+} 
+
+nav h1 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav .blogs {
+    display: flex;
+    gap: 1rem;
+}
+
+.blogs p {
+    font-size: 17px;
+}
+
+.blogs p:hover {
+    color: salmon;
+}
+.body {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 480px;
+    right: -50px;
+    font-size: 25px;
+    color: salmon;
+    text-decoration: line-through;
+}
+
+.body h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
