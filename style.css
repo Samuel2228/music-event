@@ -4,10 +4,8 @@
 }
 
 .main-container {
-    /* border: 1px solid red; */
-     width: 100%;
-     height: 100vh;
-     background-image: url(music.avif);
+     height: 100vh; 
+     background-image: url(Image/music.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -26,8 +24,9 @@ nav {
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 } 
 
-nav h1 {
-    font-size: 30px;
+.main-container nav .regge h1 {
+    font-size: 40px;
+    color: red;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -43,19 +42,64 @@ nav .blogs {
 .blogs p:hover {
     color: salmon;
 }
-.body {
-    /* border: 1px solid blue; */
+
+.section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 480px;
-    right: -50px;
+    /* justify-content: center; */
+    /* outline: 1px solid ; */
+    padding-right: 100px;
+    align-items: flex-end;
+    margin: 260px auto;
+}
+
+.content {
+  
+    width: 40%;
+    /* outline: 1px solid; */
+    /* margin: 240px auto; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: right; */
     font-size: 25px;
     color: salmon;
     text-decoration: line-through;
 }
 
-.body h1 {
+.buttons {
+    /* outline: 1px solid ; */
+    width: 40%;
+    gap: 5px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.learn-more {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 20px;
+    border-color: black;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border-color: white;
+    /* outline: none; */
+}
+
+
+.subscribe {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 20px;
+    background-color: white;
+    border-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.section h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 60px;
+    font-size: 70px;
 }
